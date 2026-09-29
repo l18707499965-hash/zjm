@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: `${APP_NAME} - ${APP_SLOGAN} | 免费高清影视追剧 App 官网`,
-    template: `%s - ${APP_NAME} 影视官网`,
+    template: `${APP_NAME} | %s`,
   },
   description: SITE_DESCRIPTION,
   keywords: [

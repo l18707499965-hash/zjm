@@ -30,7 +30,6 @@ import {
 const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
-  title: `${APP_NAME} - 想看的热剧一秒找到 | 免费高清影视追剧 App`,
   description: SITE_DESCRIPTION,
   alternates: { canonical: `${siteUrl}/` },
   openGraph: {
