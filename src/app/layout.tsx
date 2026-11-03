@@ -12,10 +12,7 @@ import {
 } from '@/lib/config';
 
 const siteUrl = getSiteUrl();
-const GOOGLE_SITE_VERIFICATION =
-  process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
-  process.env.GOOGLE_SITE_VERIFICATION ||
-  '';
+const GOOGLE_SITE_VERIFICATION = '80YDZsyq8WU_oG7ex5yURoMuS7XIr1oO3LF3NeuB5Uw';
 const BAIDU_SITE_VERIFICATION =
   process.env.NEXT_PUBLIC_BAIDU_VERIFICATION ||
   process.env.BAIDU_SITE_VERIFICATION ||
